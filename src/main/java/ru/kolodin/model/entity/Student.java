@@ -12,7 +12,7 @@ public class Student {
     @Id
     @GeneratedValue
     @Column()
-    private int id;
+    private Integer id;
 
     @Column()
     private String firstname;
@@ -21,6 +21,6 @@ public class Student {
     private String secondname;
 
     @Column()
-    private int age;
+    private Integer age;
 
 }
